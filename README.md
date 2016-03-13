@@ -1,29 +1,44 @@
 # Project 1 - Flicks
 
-
-Flicks is a movies app using the [AFNetworking](http://docs.themoviedb.apiary.io/#).
-
+Flicks is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: 20 hours spent in total
 
-Completed user stories:
+## User Stories
 
- * [x] Required: User can view a list of movies currently playing in theaters from The Movie Database. Poster images must be loaded asynchronously.
- * [x] Required: User can view movie details by tapping on a cell.
- * [x] Required: User sees loading state while waiting for movies API. You can use one of the 3rd party libraries listed on CocoaControls.
-* [x] Required: User sees an error message when there's a networking error. You may not use UIAlertController or a 3rd party library to display the error. (Checked with Chau, but it is not showing in my laptop. hopfully it works..)
- * [x] Required: User can pull to refresh the movie list.
+The following **required** functionality is completed:
 
- * [x] Optional: a tab bar for Now Playing or Top Rated movies.
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] User can pull to refresh the movie list.
+
+The following **optional** features are implemented:
+
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [ ] Implement segmented control to switch between list view and grid view.
+- [ ] Add a search bar.
+- [ ] All images fade in.
+- [ ] For the large poster, load the low-res image first, switch to high-res when complete.
+- [ ] Customize the highlight and selection effect of the cell.
+- [ ] Customize the navigation bar.
 
 
-Walkthrough of all user stories:
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
 
 ![Video Walkthrough 1](flicks.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-Copyright [2016] [Kunho Kim]
+
+
+## License
+
+Copyright 2016 Kunho Kim
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
